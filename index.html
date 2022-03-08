@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servey Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="#"><img src="logo.jpeg" alt="image"></a>
+    </div>
+    <div class="menu">
+      <ul type="none">
+        <li class="item0"><a href="#"> FCC:Survey Form</a></li>
+        <li class="item1"><a href="#"> freeCodeCamp.org</a></li>
+        <li class="follow"><a href="#">+Follow</a></li>
+        <div class="navright">
+          <li class="item2"><a href="#"> <img src="logo2.png" alt="heart" height="17px" width="17px" name="Love"></a>
+          </li>
+          <li class="item3"><a href="#"> View in Editor</a></li>
+          <li class="item4"><a href="#"> Sign Up</a></li>
+          <li class="item5"><a href="#"> Log In</a></li>
+        </div>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div id="formbody">
+      <header>
+        <h1>
+          freeCodeCamp Survey Form
+        </h1>
+        <p>
+          Thank you for taking the time to help us improve the platform
+        </p>
+      </header>
+      <form class="survey-form">
+        <div class="form-blocks">
+          <label for="name">Name</label><br>
+          <input class="inputdata" id="name" type="text" placeholder="Enter your name" required><br><br>
+          <label for="email">Email</label><br>
+          <input class="inputdata" id="email" placeholder="Enter your email" required><br><br>
+
+          <label for="age">Age<span class="optional">(optional)</span><br>
+
+            <input class="inputdata" type="number" id="age" placeholder="Age"><br><br>
+
+            <label for="corrent_role">Which option best describes your current role?</label><br>
+
+            <select class="inputdata" name="corrent_role">
+              <option disabled selected value>Select current role</option>
+              <option value="student">Student</option>
+              <option value="job">Full Time Job</option>
+              <option value="learner">Full Time Learner</option>
+              <option value="prefer">Prefer not to say</option>
+              <option value="other">Other</option>
+            </select><br><br>
+
+            <label for="recommend">Would you recommend freeCodeCamp to a friend?</label><br>
+
+            <input class="radio" type="radio" name="recommend">Definitely <br>
+
+            <input class="radio" type="radio" name="recommend">Maybe <br>
+
+            <input class="radio" type="radio" name="recommend">Not sure <br><br>
+
+
+            <label for="feature">What is your favorite feature of freeCodeCamp?</label>
+
+            <select required class="inputdata" name="feature">
+              <option disabled selected value>Select an option</option>
+              <option value="challenges">Challenges</option>
+              <option value="projects">Projects</option>
+              <option value="community">Community</option>
+              <option value="openSource">Open Source</option>
+            </select><br><br>
+
+            <label for="improved"> What would you like to see improved?
+              <span class="optional">(Check all that apply)</span></label><br>
+
+            <input type="checkbox" class="checkbox" name="improve1" value="Front-end Projects" />Front-end Projects <br>
+
+            <input type="checkbox" class="checkbox" name="improve2" value="Back-end Projects" />Back-end Projects <br>
+
+            <input type="checkbox" class="checkbox" name="improve3" value="Data Visualization" />Data Visualization <br>
+
+            <input type="checkbox" class="checkbox" name="improve4" value="Challenges" />Challenges <br>
+
+            <input type="checkbox" class="checkbox" name="improve5" value="Open Source Community" />Open Source
+            Community <br>
+
+            <input type="checkbox" class="checkbox" name="improve6" value="Gitter help rooms" />Gitter help rooms <br>
+
+            <input type="checkbox" class="checkbox" name="improve7" value="Videos" />Videos <br>
+
+            <input type="checkbox" class="checkbox" name="improve7" value="City Meetups" />City Meetups <br>
+
+            <input type="checkbox" class="checkbox" name="improve8" value="Wiki" />Wiki <br>
+
+            <input type="checkbox" class="checkbox" name="improve9" value="Forum" />Forum <br>
+
+            <input type="checkbox" class="checkbox" name="improve10" value="Additional Courses" />Additional Courses
+            <br><br>
+
+            <label for="comment">Any comments or suggestions?</label>
+            <textarea class="inputdata" id="comment" name="comment" placeholder="Enter your comment here..."></textarea>
+        </div><br>
+        <div class="form-blocks">
+          <button class="inputdata" type="submit" id="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.menu{
+    display: inline;
+}
+ul{
+    display: inline;
+}
+
+.navbar{
+    background-color: black;
+    height: 66px; 
+    width: 100%;
+}
+.menu a{
+    text-decoration: none;   
+}
+.item a{
+    color: white;
+    border: 1px solid grey;
+    
+}
+.item1 a{
+    color: rgb(130, 145, 168);
+    
+}
+.item1 a:hover {
+    color: white;
+}
+
+.item0 a{
+    color: white;
+    margin-left: 60px;
+    display: inline;
+}
+
+.navright {
+    display: inline;
+    float: right;
+    /* margin-right: 150px; */
+}
+.logo img{
+   
+    height: 35px;
+    margin: auto;
+    margin-top: 16px;
+    margin-left: 14px;
+  
+}
+.logo{
+    display: inline;
+}
+.item0{
+    margin-top: -45px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    width: 500px;
+}
+.item1{
+    margin-left: 60px;
+    display: inline;
+
+}
+.follow{
+    background-color: rgb(41, 189, 41);
+    margin-left: 6px;
+    margin-top: -20px;
+    display: inline;
+    border-radius: 3px;
+    padding: 3px 3px 3px 3px;
+    font-size: 14px; 
+}
+.follow a{
+color: black;
+}
+.follow a:hover{
+    color: white;
+}
+.item2{
+    display: inline;
+    /* border: 2px solid rgb(56, 63, 75); */
+    margin: auto;
+    /* margin: 0px 0px 14px 1260px; */
+    padding: 15px 20px 8px 20px;
+    background-color: rgb(56, 63, 75);
+    border-radius: 4px;
+    /* float: right; */
+}
+.item2:hover{
+    background-color: rgb(93, 105, 126);
+    
+}
+
+.item3{
+    display: inline;
+    /* border: 2px solid rgb(56, 63, 75); */
+    margin: 0 6px;
+    background-color: rgb(56, 63, 75);
+    padding: 15px 18px 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.item3:hover{
+    background-color: rgb(93, 105, 126);
+}
+.item3 a{
+    color: white;
+    text-decoration: none;
+}
+.item4{
+    display: inline;
+    /* border: 2px solid green; */
+    margin: 0 0;
+    background-color: rgb(41, 189, 41);
+    padding: 15px 18px 8px 18px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.item4:hover{
+    background-color: green;
+}
+.item4 a{
+    color: black;
+}
+.item4 a:hover{
+    color: white;
+    background-color: green;
+}
+.item5{
+    display: inline;
+    /* border: 2px solid rgb(56, 63, 75); */
+    margin: 0 6px;
+    background-color: rgb(56, 63, 75);
+    padding: 15px 18px 8px 18px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.item5:hover{
+    background-color: rgb(93, 105, 126);
+}
+.item5 a{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-repeat: no-repeat;
+}
+#formbody{
+    display: block;
+    width: 40%;
+    margin: auto;
+    color: rgb(255, 255, 255);
+
+}
+#formbody header{
+    text-align: center;
+}
+#formbody header h1{
+    font-size: 45px;
+}
+#formbody header p{
+    font-size: 20px;
+}
+.survey-form{
+    background-color: rgba(31, 31, 50, 0.788);
+    font-size: 22px;
+    padding: 30px;
+    
+}
+.inputdata{
+    width: 100%;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+    /* margin: 5px; */
+}
+#comment{
+    height: 5rem;
+}
+
+#submit{
+    background-color: green;
+    border-color: green;
+    color: white;
+    font-size: 25px;
+}
+
